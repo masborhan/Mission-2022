@@ -28,3 +28,17 @@ section{
     color: white;
     font-weight: 700;
 }
+
+.footer{
+    display: table-row;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    background-color: black;
+}
+
+.footer p{
+    
+}
