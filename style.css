@@ -1,53 +1,55 @@
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
-h1{
-    font-size: 50px;
-}
-
-.orange-color{
-    color: orange;
-}
-section{
-    display: flex;
+h1 {
+  font-size: 50px;
 }
 
-.half-width{
-    width: 50%;
-    padding-left: 10px;
+.top-color {
+  color: royalblue;
 }
-.half-width img{
-    width: 80%;
-}
-
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
-    padding: 10px 40px;
-    border-radius: 5px;
-    color: white;
-    font-weight: 700;
+section {
+  display: flex;
 }
 
-.footer{
-    display: table-row;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    height: 100px;
-    background-color: black;
+.half-width {
+  width: 50%;
+  padding-left: 2%;
+}
+.half-width img {
+  width: 60%;
 }
 
-.footer h1{
-color: white;
-text-align: center;
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(blueviolet, royalblue);
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
 }
-.footer p{
-    text-align: center;
-    color: white;
-    padding: 5px;
+
+.footer {
+  display: table-row;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 100px;
+  background-color: black;
 }
-.footer-header-color{
-    color: blueviolet;
+
+.footer h1 {
+  color: white;
+  text-align: center;
+}
+.footer-header-color {
+  color: blueviolet;
+}
+.footer p {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  position: static;
 }
