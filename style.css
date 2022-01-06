@@ -39,6 +39,15 @@ section{
     background-color: black;
 }
 
+.footer h1{
+color: white;
+text-align: center;
+}
 .footer p{
-    
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+.footer-header-color{
+    color: blueviolet;
 }
