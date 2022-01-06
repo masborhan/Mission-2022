@@ -1,55 +1,125 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-h1 {
-  font-size: 50px;
+h2 {
+  font-size: 30px;
 }
 
 .top-color {
   color: royalblue;
 }
-section {
+.flexible-container {
   display: flex;
+  margin-top: 5px;
+}
+.vertical {
+  border-left: 3px solid rgb(7, 233, 203);
+  position: left;
 }
 
 .half-width {
   width: 50%;
   padding-left: 2%;
+  margin-top: 5px;
 }
 .half-width img {
-  width: 60%;
+  width: 50%;
+  margin-top: 25px;
+}
+.half-width p {
+  text-align: justify;
+  margin-right: 10px;
 }
 
 .link-button {
   text-decoration: none;
   background-image: linear-gradient(blueviolet, royalblue);
-  padding: 10px 40px;
+  padding: 10px 20px;
   border-radius: 5px;
   color: white;
   font-weight: 700;
 }
-
-.footer {
-  display: table-row;
-  position: fixed;
+.skill-experience {
+  padding: 10px 0;
+}
+.skill-experience h2 {
+  text-align: center;
+}
+.mission {
+  width: 100%;
+  margin-left: 25px;
+  padding-left: 20px;
+  box-shadow: 10px 10px 20px;
+  border-radius: 10px;
+  background-color: darkcyan;
+}
+.mission img {
+  border-radius: 5px;
+  width: 150px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+}
+.mission p {
+  text-align: justify;
+  margin-right: 10px;
+}
+.vission {
+  width: 100%;
+  margin-left: 25px;
+  padding-left: 20px;
+  box-shadow: 10px 10px 20px;
+  border-radius: 10px;
+  background-color: cadetblue;
+}
+.vission img {
+  border-radius: 5px;
+  width: 150px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+}
+.vission p {
+  text-align: justify;
+  margin-right: 10px;
+}
+.goal {
+  width: 100%;
+  margin-left: 25px;
+  padding: 20px, 20px;
+  box-shadow: 10px 10px 20px;
+  border-radius: 10px;
+  background-color: darkolivegreen;
+}
+.goal img {
+  border-radius: 5px;
+  width: 150px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+}
+.goal p {
+  text-align: justify;
+  margin-right: 10px;
+  margin-left: 15;
+}
+#footer {
+  width: 100%;
   bottom: 0px;
-  left: 0px;
-  right: 0px;
-  height: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
   background-color: black;
 }
 
-.footer h1 {
+footer h2 {
   color: white;
   text-align: center;
 }
 .footer-header-color {
-  color: blueviolet;
+  color: purple;
 }
-.footer p {
+footer p {
   text-align: center;
   color: white;
-  text-decoration: none;
-  padding: 5px;
-  position: static;
+  font-size: 10px;
 }
